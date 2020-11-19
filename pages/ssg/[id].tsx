@@ -7,7 +7,7 @@ export const getStaticProps: GetStaticProps<{}> = async context => {
 	return {
 		props: {
 			id: context.params.id
-		}
+		},
 	}
 }
 
